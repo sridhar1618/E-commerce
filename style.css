@@ -1,0 +1,352 @@
+*{
+    padding:0px;
+    margin: 0px;
+    scroll-behavior:smooth;
+ }
+ :root{
+    --bg-color:red;
+    --text-color:blue;
+    --main-color:pink;
+ }
+.name{
+    color:rgb(255, 0, 217);
+    display: inline;    
+}
+.nav-container{ 
+  margin: 3%;
+    border-radius: 50px ;
+    position: fixed;
+}
+ul{
+  text-decoration: none;
+  background-color: rgba(85, 0, 255, 0.588);
+  border-radius: 3rem;
+  font-size: 1.5rem;
+}
+li{
+  display: inline-block;
+  padding-right: 20px;
+  padding: 5px;
+  text-decoration:none;
+  color:rgb(255, 0, 247);
+}
+li:hover{
+  background-color: rgba(255, 187, 0, 0.728);
+  border-radius: 5rem;
+}
+.a{
+  text-decoration: none;
+  color:rgb(0, 255, 255);
+  padding: 5px;
+}
+.home-img{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  height:400px;
+  width: 1100px;
+  margin-top: 100px;
+}
+.home-para{
+  text-align: center;
+  margin-top: 50px;
+  color:rgb(0, 255, 42);
+}
+.shop-container{
+  display:flex;
+  margin: -10px;
+}
+#shop{
+  color:rgb(255, 0, 217);
+  font-size: 2.5rem;
+
+}
+.glassimg1{
+  height: 180px;
+  width: 220px;
+}
+.imgborder{
+  border: 5px solid rgba(189, 255, 251, 0.721);
+  margin: 30px;
+  background-color: rgba(255, 0, 0, 0.657);
+}
+#Glass{
+  color: blueviolet;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+  text-decoration:underline 5px;
+}
+.sunglass{
+  color: rgb(0, 255, 170);
+  text-align: center;
+  color: brown;
+  background-color: blanchedalmond;
+
+}
+.sunglass p{
+  color: rgb(255, 242, 0);
+
+}
+.sunglass₹{
+  margin-left: 59%;
+  display: inline; 
+  font-size: 1.8rem;
+  color: rgb(0, 242, 255);
+}
+#sunglassbuy{
+  margin-left: 60%;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.619);
+  color: rgb(142, 255, 107);
+  border-radius: 10px;
+  border: 3px solid white;
+  padding:5px;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 3px solid rgba(255, 255, 255, 0.764);
+}
+.glasspara{
+  background-color: rgba(255, 0, 0, 0.657);
+
+}
+.log{
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+.shirt-img{
+  width: 225px;
+  height:250px
+}
+.shirt{
+  display: inline-block ;
+}
+.shirt-border{
+  border: 5px solid rgba(160, 235, 255, 0.737);
+  margin-left: 2.5rem;
+  background-color: rgba(255, 0, 0, 0.657);
+
+}
+.shirt-name{
+  font-size: 1.5rem;
+  color: brown;
+  background-color: blanchedalmond;
+  padding:5px;
+  text-align: center;
+}
+#shirtname{
+  color: blueviolet;
+  font-size: 2.5rem;
+  margin: 2rem;
+  text-decoration:underline 5px;
+}
+.shirtbuy{
+  background-color: rgb(0, 0, 0);
+  margin-left: 62%;
+  color: rgba(0, 255, 38, 0.676);
+  border-radius: 10px;
+  padding:5px;
+  border: 3px solid rgba(255, 255, 255, 0.764);
+}
+.shirt₹{
+  margin-left: 65%;
+  padding-top:5px;
+  color: rgb(0, 242, 255);
+  font-size: 1.8rem;
+}
+#shirt-name{
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;  
+  color:blueviolet;
+  font-size: 2.5rem;
+  text-decoration: underline 5px;
+}
+.shirt-content{
+  background-color: aliceblue;
+}
+.pant{
+  display: flex;
+}
+.pant-img{
+  width:250px;
+  height:300px;
+}
+#pantshead{
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color:blueviolet;
+  margin: 2rem;
+}
+.pant-border{
+  border-radius: 10px;
+  border: 5px solid rgba(160, 235, 255, 0.737);
+  margin-left: 23px;
+  background-color: rgba(255, 0, 0, 0.657);
+  margin-bottom: 20px;
+}
+.pant-name{
+  text-align: center;
+  color: brown;
+  background-color: blanchedalmond;
+}
+.pant-button{
+  background-color: rgb(0, 0, 0);
+  margin-left: 62%;
+  color: rgba(0, 255, 38, 0.676);
+  border-radius: 10px;
+  padding:5px;
+  border: 3px solid rgba(255, 255, 255, 0.764);
+}
+.₹pant{
+  margin-left: 60%;
+  padding-top:5px;
+  color: rgb(0, 242, 255);
+  font-size: 1.8rem;
+}
+.shoe-border{
+  border-radius: 5px;
+  border: 5px solid rgba(160, 235, 255, 0.737);
+  background-color: rgba(255, 0, 0, 0.657);
+
+}
+#shoe{
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color:blueviolet;
+  margin: 2rem;
+}
+.shoe{
+  padding: 10px;
+  display: flex;
+}
+.shoe-img{
+  width: 250px;
+  height: 300px;
+}
+.shoes{
+  padding:13px;
+}
+.₹shoe{
+  margin-left: 63%;
+  padding-top:5px;
+  color: rgb(0, 242, 255);
+  font-size: 1.8rem;
+}
+.shoe-Buy{
+  background-color: rgb(0, 0, 0);
+  margin-left: 62%;
+  color: rgba(0, 255, 38, 0.676);
+  border-radius: 10px;
+  padding:5px;
+  border: 3px solid rgba(255, 255, 255, 0.764);
+}
+.shoe-name{
+  text-align: center;
+  color: brown;
+  background-color: blanchedalmond;
+}
+.message{
+  outline: auto;
+}
+.contact-contain{
+  background-color: antiquewhite;
+}
+#contact{
+  display: block;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color:blueviolet;
+  margin: 2rem;
+  text-align: center;
+
+}
+#form{
+display:inline-block;
+margin-left: 32%;
+padding-right: 100px;
+padding-left: 100px;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: antiquewhite;
+}
+#input-name,#input-email,#input-number,#input-message{
+  padding: 30px;
+  font-size: 1.5rem;
+  background-color: antiquewhite;   
+}
+#message{
+  border: 3px solid rgb(255, 74, 240);
+  background-color: rgba(186, 113, 255, 0.573);
+}
+#name{
+  border: 3px solid rgb(255, 74, 240);
+  background-color: rgba(186, 113, 255, 0.573)}
+#email{
+  border: 3px solid rgb(255, 74, 240);
+  background-color: rgba(186, 113, 255, 0.573)}
+#number{
+  border: 3px solid rgb(255, 74, 240);
+  background-color: rgba(186, 113, 255, 0.573)
+}
+.send-button{
+margin-left: 65%;
+padding: 5px;
+}
+#btn{
+  padding:5px;
+  width: 80px;
+  background-color: black;
+  color: aliceblue;
+  border: 4px solid rgb(47, 255, 0);
+  border-radius: 20px;
+}
+.send-button:hover{
+  color: rgb(30, 255, 0);
+  transform:scale(1.1);
+}
+#github:hover{
+  transform: scale(1.2);
+}
+#mail:hover{
+  transform: scale(1.2);
+}
+#instgram:hover{
+  transform: scale(1.2);
+}
+#linked-in:hover{
+  transform: scale(1.2);
+}
+.social-log{
+  display:inline-flex;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+#github{
+  height: 70px;
+  width: 70px;
+  padding:10px;
+}
+#mail{
+  height: 70px;
+  width: 70px;
+  padding:10px;
+}
+#instgram{
+  height: 70px;
+  width: 70px;
+  padding:10px;
+}
+#linked-in{
+  height: 70px;
+  width: 70px;
+  padding:10px;
+}
+#footer{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 5%;
+  background-color: black;
+  color: aliceblue;
+}
